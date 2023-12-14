@@ -1,0 +1,72 @@
+
+body{
+    box-shadow: auto;
+    margin: 15%;
+    background-image: url(../img/login\ bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+.container{
+   
+    width: 50%;
+    background-color:rgb(25, 70, 88);
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(248, 246, 246, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+td{
+    text-align: center;
+
+}
+.header-text{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.sub-text{
+    font-size: 15px;
+    color:rgb(243, 243, 243);
+}
+
+.form-label{
+    color: rgb(241, 241, 241);
+    text-align: left;
+    font-size: 14px;
+}
+.label-td{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1{
+    font-weight: bold;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}
+.login-btn{
+    /*margin-top: 15px;*/
+    background-color:black;
+    margin-bottom: 15px;
+    width: 50%;
+    
+}
+
